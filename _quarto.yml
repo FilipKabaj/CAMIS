@@ -20,18 +20,23 @@ website:
       - href: contribution/contribution.qmd
         text: "Contribute"
 
-      - text: "Updates"
+      - text: "Publications and projects"
+        menu: 
+          - text: "White paper"
+            href: publication/white_paper.qmd
+          - text: "Conferences"
+            href: publication/conference.qmd
+          - text: "Dissertation"
+            href: publication/dissertation.qmd
+
+
+      - text: "News"
         menu: 
           - text: "Meeting minutes"
             href: minutes/index.qmd
-          - text: "Conferences 2024"
-            href: Conferences.qmd
-          - text: "Blog"
+          - text: "Blogs"
             href: blogs/index.qmd
  
-      - text: "Publications"
-        href: "https://phuse.s3.eu-central-1.amazonaws.com/Deliverables/Data+Visualisation+%26+Open+Source+Technology/WP077.pdf"
-      
 
 format:
   html:
